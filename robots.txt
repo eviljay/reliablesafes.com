@@ -1,2 +1,15 @@
 User-agent: *
-Allow: /
+Disallow: /store/shopcart/
+Disallow: /store/checkout/
+Crawl-delay: 10
+User-agent:  TwengaBot
+Disallow: /
+User-agent: Slurp
+Crawl-delay: 300
+Disallow: /store/shopcart/
+Disallow: /store/checkout/
+User-agent: Yandex
+Crawl-delay: 300
+Disallow: /store/shopcart/
+Disallow: /store/checkout/
+Disallow: /
