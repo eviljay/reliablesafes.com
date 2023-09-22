@@ -1,0 +1,37 @@
+
+  <script type="text/javascript">
+  var NS = (window.Event) ? 1 : 0;
+
+  function checkKey(e) {
+      var code = (NS) ? e.which : event.keyCode;
+
+      if (code == "13"){
+      return false; }
+    }
+
+  document.onkeypress = checkKey;
+    </script><FORM  NAME="shopcart_form" METHOD="post" ACTION="/store/shopcart/">
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR CLASS="tablebgcolor">
+ <TD HEIGHT=25 WIDTH="30">&nbsp;</TD>
+ <TD HEIGHT=25 NOWRAP CLASS="tableheader">&nbsp;Product #&nbsp;</TD>
+ <TD HEIGHT=25 CLASS="tableheader">&nbsp;Description&nbsp;</TD>
+ <TD HEIGHT=25 CLASS="tableheader" ALIGN="CENTER">&nbsp;Qty.&nbsp;</TD>
+ <TD HEIGHT=25 ALIGN="CENTER" CLASS="tableheader">&nbsp;Price&nbsp;</TD>
+ <TD HEIGHT=25 CLASS="tableheader">&nbsp;Amount&nbsp;</TD>
+ <TD>&nbsp;</TD>
+</TR>
+<TR>
+ <TD COLSPAN="7" ALIGN="CENTER" CLASS="tablecontent"><BR>Your shopping cart is currently empty.<BR><BR></TD>
+</TR>
+<TR>
+ <TD>&nbsp;</TD>
+</TR>
+<TR>
+ <TD COLSPAN="7" VALIGN="top" ALIGN="center" NOWRAP>
+   <input type="hidden" name="referer" value="">
+   <a href=""><img src="/custom_theme/shopcart/continue_shopping.gif" alt="Continue Shopping" border="0"></a><INPUT TYPE="image" SRC="/custom_theme/shopcart/clear_cart.gif" NAME="clear[]" VALUE="1" ALT="Clear Cart"><a onclick="_gaq.push(['_trackEvent', 'Link', 'Button', 'Checkout', 0]);" href="https://checkoutguardian.com/payment/address_form.php?checkout=1&amp;store_id=228402&amp;cart_id=D4E36B21685FE4D29D0DC6DF18CEF956&amp;domain_name=www.reliablesafes.com"><img src="/custom_theme/shopcart/checkout.gif" alt="Proceed To Checkout" border="0"></a>
+ </TD>
+</TR>
+</TABLE>
+</FORM>

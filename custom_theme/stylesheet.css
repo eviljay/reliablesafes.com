@@ -1,0 +1,169 @@
+#main_content {
+  background-color: white;
+}
+ 
+.category_link { 
+font-family: arial, helvetica;
+font-size: 10pt;
+font-weight: normal;
+font-style: normal;
+color: #000000; 
+text-decoration: underline;
+}
+
+.category_list_link { 
+font-family: arial, helvetica;
+font-size: 10pt;
+font-weight: bold;
+font-style: normal;
+color: #000000; 
+text-decoration: underline;
+}
+
+.contact_info { 
+font-family: arial, helvetica;
+font-size: 10pt;
+font-weight: normal;
+font-style: normal;
+color: #000000;
+text-align: center;
+text-decoration: none;
+}
+
+ h1 {  
+ font-family: arial;
+ font-size: 24pt;
+ font-weight: normal;
+ font-style: normal;
+ color: #000000;
+ background: #FFFFFF;
+ padding: 5px; 
+ text-decoration: none;
+ }
+ 
+ h2 {  
+ font-family: arial;
+ font-size: 18pt;
+ font-weight: normal;
+ font-style: normal;
+ color: #000000;
+ background: #FFFFFF;
+ padding: 5px; 
+ text-decoration: none;
+ }
+ 
+ h3 { 
+ font-family: arial;
+ font-size: 14pt;
+ font-weight: normal;
+ font-style: normal;
+ color: #000000;
+ background: #FFFFFF;
+ padding: 5px; 
+ text-decoration: none;
+ }
+ 
+ img { 
+ border-style: solid;
+ border-color: #FFFFFF;
+ border-width: 0px; }
+
+A { 
+font-family: arial;
+font-size: 10pt;
+font-weight: normal;
+font-style: normal;
+color: #000000;
+background: ;
+border-size: 0px;
+border-color: #006699;
+text-align: left; 
+text-decoration: underline;
+}
+
+.nav A { 
+font-family: arial;
+font-size: 10pt;
+font-weight: normal;
+font-style: normal;
+color: #FFFFFF;
+background: ;
+border-size: 0px;
+border-color: #196937;
+text-align: left; 
+text-decoration: none;
+}
+
+.nav A:Visited { 
+font-family: arial;
+font-size: 10pt;
+font-weight: normal;
+font-style: normal;
+color: #FFFFFF;
+background: ;
+border-size: 0px;
+border-color: #196937;
+text-align: left; 
+text-decoration: none;
+}
+
+.nav A:Active { 
+font-family: arial;
+font-size: 10pt;
+font-weight: normal;
+font-style: normal;
+color: #FFFFFF;
+background: ;
+border-size: 0px;
+border-color: #196937;
+text- align: left; 
+text-decoration: none;
+}
+
+.nav A:Hover { 
+font-family: arial;
+font-size: 10pt;
+font-weight: normal;
+font-style: normal;
+color: #888888;
+background: ;
+border-size: 0px;
+border-color: #196937;
+text-align: left;
+text-decoration: none;
+}
+
+.showlink { 
+font-family: arial, helvetica;
+font-size: 10pt;
+font-weight: normal;
+font-style: normal;
+color: #000000; 
+text-decoration: underline;
+}
+
+.subcategory_link {
+font-family: arial, helvetica;
+font-size: 10pt;
+font-weight: bold;
+font-style: normal; 
+color: #000000; 
+text-decoration: underline;
+}
+
+td {
+font-family: arial, helvetica;
+font-size: 10pt;
+}
+
+
+<!-- Static -->
+
+.form_label_header {font-family: arial, helvetica; font-size: 8pt; font-weight: bold; }
+.form_label {font-family: arial, helvetica; font-size: 8pt; }
+.searchvalue {font-family: arial, helvetica; font-size: 12pt; } 
+.searchtext {font-family: arial, helvetica; font-size: 10pt; font-weight: bold; color: #196937; } 
+.tablefooter {font-family: arial, helvetica; font-size: 10pt; }
+.carttext { font:normal 12px arial, verdana, helvetica; text-decoration:none; color:#FFFFFF; }
+
+
